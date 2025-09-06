@@ -21,8 +21,6 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 
 ---
 
-## 📂 Project Structure
-
 ---
 
 ## ⚙️ Methodology
@@ -31,30 +29,71 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - 50,000 tweets obtained from Kaggle  
 - Sentiment labels: **Positive, Negative, Neutral**
 
+![Research Methodology](Model/meth.jpeg)
+
+---
+
 ### 🔹 Preprocessing
 - Remove noise (URLs, hashtags, special chars)  
 - Case folding (convert to lowercase)  
 - Stop-word removal (using NLTK)  
 - Tokenization & sequence padding (Keras)
 
+![Preprocessing Flow](Model/preprocessing.jpeg)  
+![Stopword Removal Visualization](Model/preprocessing_example.jpeg)
+
+---
+
 ### 🔹 Word Embedding
 - Convert tokens into dense numerical vectors using **Keras Embedding Layer**
+
+---
 
 ### 🔹 Modeling
 - **CNN layers** → Extract local text patterns  
 - **Bi-LSTM layers** → Capture sequence dependencies (forward & backward)  
-- **Dense + Softmax layer** → Classify into sentiment categories
+- **Dense + Softmax layer** → Classify into sentiment categories  
+
+![Model Architecture](Model/model.jpeg)
+
+---
 
 ### 🔹 Evaluation Metrics
 - Confusion Matrix  
 - ROC-AUC Curve  
 - Precision-Recall Curve  
-- Accuracy & Loss plots
+- Accuracy & Loss plots  
 
 ---
 
 ## 📊 Results
 
+### 🔹 ROC Curve
+![ROC Curve](Results/ROC_Curve.png)
+
+---
+
+### 🔹 Precision-Recall Curve
+![PR Curve](Results/Precision_and_Recall_Curve.png)
+
+---
+
+### 🔹 Training & Validation Accuracy
+![Accuracy Curve](Results/accuracy.jpeg)
+
+---
+
+### 🔹 Training & Validation Loss
+![Loss Curve](Results/loss.jpeg)
+
+---
+
+### 🔹 Confusion Matrix
+![Confusion Matrix](Results/cf.png)
+
+---
+
+### ✅ Performance Summary
 - **Overall Accuracy**: **97.5%**  
 - **Weighted F1-score**: **97%**  
 
@@ -68,4 +107,5 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - Validation accuracy stabilized at **97–98%**  
 - Training accuracy reached **~100%**  
 
-📌 *Confusion Matrix & ROC curves can be added as images here:*  
+---
+
