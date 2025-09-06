@@ -29,7 +29,9 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - 50,000 tweets obtained from Kaggle  
 - Sentiment labels: **Positive, Negative, Neutral**
 
-![Research Methodology](Model/meth.jpeg)
+<p align="center">
+  <img src="Model/meth.jpeg" alt="Research Methodology" width="600"/>
+</p>
 
 ---
 
@@ -39,8 +41,12 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - Stop-word removal (using NLTK)  
 - Tokenization & sequence padding (Keras)
 
-![Preprocessing Flow](Model/preprocessing.jpeg)  
-![Stopword Removal Visualization](Model/preprocessing_example.jpeg)
+<p align="center">
+  <img src="Model/preprocessing.jpeg" alt="Preprocessing Flow" width="600"/>
+</p>
+<p align="center">
+  <img src="Model/preprocessing_example.jpeg" alt="Stopword Removal Visualization" width="600"/>
+</p>
 
 ---
 
@@ -54,7 +60,9 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - **Bi-LSTM layers** → Capture sequence dependencies (forward & backward)  
 - **Dense + Softmax layer** → Classify into sentiment categories  
 
-![Model Architecture](Model/model.jpeg)
+<p align="center">
+  <img src="Model/model.jpeg" alt="Model Architecture" width="600"/>
+</p>
 
 ---
 
@@ -69,27 +77,37 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 ## 📊 Results
 
 ### 🔹 ROC Curve
-![ROC Curve](Results/ROC_Curve.png)
+<p align="center">
+  <img src="Results/ROC_Curve.png" alt="ROC Curve" width="600"/>
+</p>
 
 ---
 
 ### 🔹 Precision-Recall Curve
-![PR Curve](Results/Precision_and_Recall_Curve.png)
+<p align="center">
+  <img src="Results/Precision_and_Recall_Curve.png" alt="PR Curve" width="600"/>
+</p>
 
 ---
 
 ### 🔹 Training & Validation Accuracy
-![Accuracy Curve](Results/accuracy.jpeg)
+<p align="center">
+  <img src="Results/accuracy.jpeg" alt="Accuracy Curve" width="600"/>
+</p>
 
 ---
 
 ### 🔹 Training & Validation Loss
-![Loss Curve](Results/loss.jpeg)
+<p align="center">
+  <img src="Results/loss.jpeg" alt="Loss Curve" width="600"/>
+</p>
 
 ---
 
 ### 🔹 Confusion Matrix
-![Confusion Matrix](Results/cf.png)
+<p align="center">
+  <img src="Results/cf.png" alt="Confusion Matrix" width="600"/>
+</p>
 
 ---
 
