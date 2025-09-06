@@ -5,7 +5,7 @@ The hybrid approach leverages:
 - **CNN** → for extracting local word patterns  
 - **Bi-LSTM** → for capturing long-term dependencies and contextual meaning  
 
-The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it highly effective for classifying tweets as **Positive, Neutral, or Negative**.
+The model achieves **91.5% accuracy** and a **89.86% weighted F1-score**, making it highly effective for classifying tweets as **Positive, Neutral, or Negative**.
 
 ---
 
@@ -15,9 +15,9 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - Hybrid **CNN + Bi-LSTM** architecture  
 - Evaluated with **ROC-AUC, Precision-Recall, Confusion Matrix, Accuracy/Loss plots**  
 - Achieved:
-  - ✅ Accuracy: **97.5%**
-  - ✅ Weighted F1-score: **97%**
-  - ✅ AUC ≈ **1.0** for Positive & Neutral sentiments
+  - ✅ Accuracy: **91.5%**
+  - ✅ Weighted F1-score: **89.86%**
+  - ✅ AUC ≈ **0.91** for Positive & Neutral sentiments
 
 ---
 
@@ -112,18 +112,19 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 ---
 
 ### ✅ Performance Summary
-- **Overall Accuracy**: **97.5%**  
-- **Weighted F1-score**: **97%**  
+- **Overall Accuracy**: **91.5%**  
+- **Weighted F1-score**: **89.86%**
+- 
+| Class    | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| Negative | 0.89      | 0.88   | 0.90     |
+| Neutral  | 0.91      | 0.90   | 0.89     |
+| Positive | 0.91      | 0.89   | 0.90     |
 
-| Class       | Precision | Recall | F1-Score |
-|-------------|-----------|--------|----------|
-| Negative    | 0.95      | 0.96   | 0.96     |
-| Neutral     | 0.98      | 0.97   | 0.98     |
-| Positive    | 0.98      | 0.98   | 0.98     |
 
-- ROC-AUC ≈ **0.99–1.0**  
-- Validation accuracy stabilized at **97–98%**  
-- Training accuracy reached **~100%**  
+- ROC-AUC ≈ **0.91**  
+- Validation accuracy stabilized at **91.5%**  
+- Overall F1-score **~89.86%**  
 
 ---
 
