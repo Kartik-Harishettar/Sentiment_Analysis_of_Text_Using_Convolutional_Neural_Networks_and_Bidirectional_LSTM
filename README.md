@@ -30,7 +30,7 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - Sentiment labels: **Positive, Negative, Neutral**
 
 <p align="center">
-  <img src="Model/meth.jpeg" alt="Research Methodology" width="600"/>
+  <img src="Model/meth.jpeg" alt="Research Methodology" width="300"/>
 </p>
 
 ---
@@ -42,7 +42,7 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - Tokenization & sequence padding (Keras)
 
 <p align="center">
-  <img src="Model/preprocessing.jpeg" alt="Preprocessing Flow" width="600"/>
+  <img src="Model/preprocessing.jpeg" alt="Preprocessing Flow" width="300"/>
 </p>
 <p align="center">
   <img src="Model/preprocessing_example.jpeg" alt="Stopword Removal Visualization" width="600"/>
@@ -61,7 +61,7 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 - **Dense + Softmax layer** → Classify into sentiment categories  
 
 <p align="center">
-  <img src="Model/model.jpeg" alt="Model Architecture" width="600"/>
+  <img src="Model/model.jpeg" alt="Model Architecture" width="300"/>
 </p>
 
 ---
@@ -78,35 +78,35 @@ The model achieves **97.5% accuracy** and a **97% weighted F1-score**, making it
 
 ### 🔹 ROC Curve
 <p align="center">
-  <img src="Results/ROC_Curve.png" alt="ROC Curve" width="600"/>
+  <img src="Results/ROC_Curve.png" alt="ROC Curve" width="300"/>
 </p>
 
 ---
 
 ### 🔹 Precision-Recall Curve
 <p align="center">
-  <img src="Results/Precision_and_Recall_Curve.png" alt="PR Curve" width="600"/>
+  <img src="Results/Precision_and_Recall_Curve.png" alt="PR Curve" width="300"/>
 </p>
 
 ---
 
 ### 🔹 Training & Validation Accuracy
 <p align="center">
-  <img src="Results/accuracy.jpeg" alt="Accuracy Curve" width="600"/>
+  <img src="Results/accuracy.jpeg" alt="Accuracy Curve" width="300"/>
 </p>
 
 ---
 
 ### 🔹 Training & Validation Loss
 <p align="center">
-  <img src="Results/loss.jpeg" alt="Loss Curve" width="600"/>
+  <img src="Results/loss.jpeg" alt="Loss Curve" width="300"/>
 </p>
 
 ---
 
 ### 🔹 Confusion Matrix
 <p align="center">
-  <img src="Results/cf.png" alt="Confusion Matrix" width="600"/>
+  <img src="Results/cf.png" alt="Confusion Matrix" width="300"/>
 </p>
 
 ---
